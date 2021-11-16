@@ -1,0 +1,67 @@
+.header {
+  height: 2cm;
+  background-color: rgb(228, 222, 218);
+  padding-top: 10px;
+  border-bottom: 0.5px solid rgb(209, 208, 208);
+}
+.pagecontent {
+  padding-top: 1.5cm;
+  padding-left: 2cm;
+}
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #131212;
+}
+.table {
+  padding-left: 1cm;
+  padding-right: 1cm;
+  padding-top: 1cm;
+}
+.margin-left {
+  margin-left: 80px !important;
+}
+.header-title {
+  float: right;
+}
+.navbar-nav {
+  color: white;
+  padding-left: 2cm;
+  padding-top: 10px;
+}
+.navbar-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 15px;
+  text-align: center;
+  width: 80vw;
+  list-style: none;
+  justify-content: end;
+}
+.nav {
+  justify-content: end;
+}
+.nav-item {
+  padding-top: 1cm;
+  padding-left: 2cm;
+  color: rgb(253, 254, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-item:hover {
+  color: #bb1f1f;
+}
+.navbar-menu {
+  padding-top: 1rem;
+}
+.navitem1 {
+  margin-right: 2cm;
+}
+.form-check-input {
+  padding-top: 0.75cm;
+  padding-left: 0.75cm;
+}
+.label {
+  padding-left: 0.3cm;
+}
